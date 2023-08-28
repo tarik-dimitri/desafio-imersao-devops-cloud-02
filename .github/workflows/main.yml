@@ -23,7 +23,6 @@ jobs:
           push: true
           tags: |
             tarikdimitri/rotten-potatoes:{{github.run_number}}
-            tarikdimitri/rotten-potatoes:latest
       
   CD:
     runs-on: ubuntu-latest
