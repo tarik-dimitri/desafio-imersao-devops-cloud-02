@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  CI:
-    runs-on: ubuntu-lastest
+CI:
+  runs-on: ubuntu-lastest
     steps:
     - name: Checkout da base de códigos
     uses: actions/checkout@v3.6.0
